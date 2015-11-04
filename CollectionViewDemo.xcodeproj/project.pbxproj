@@ -17,6 +17,7 @@
 		FA011E1E1BE99FAE001E953C /* CollectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA011E1C1BE99FAE001E953C /* CollectViewCell.swift */; };
 		FA011E1F1BE99FAE001E953C /* CollectViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA011E1D1BE99FAE001E953C /* CollectViewCell.xib */; };
 		FA011E211BE99FFD001E953C /* 金融理财.png in Resources */ = {isa = PBXBuildFile; fileRef = FA011E201BE99FFD001E953C /* 金融理财.png */; };
+		FA011E231BE9E06A001E953C /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA011E221BE9E06A001E953C /* FlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FA011E1C1BE99FAE001E953C /* CollectViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectViewCell.swift; sourceTree = "<group>"; };
 		FA011E1D1BE99FAE001E953C /* CollectViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectViewCell.xib; sourceTree = "<group>"; };
 		FA011E201BE99FFD001E953C /* 金融理财.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "金融理财.png"; path = "../../../Desktop/金融理财.png"; sourceTree = "<group>"; };
+		FA011E221BE9E06A001E953C /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				FA011DFA1BE99AD6001E953C /* Info.plist */,
 				FA011E1C1BE99FAE001E953C /* CollectViewCell.swift */,
 				FA011E1D1BE99FAE001E953C /* CollectViewCell.xib */,
+				FA011E221BE9E06A001E953C /* FlowLayout.swift */,
 			);
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA011E1E1BE99FAE001E953C /* CollectViewCell.swift in Sources */,
+				FA011E231BE9E06A001E953C /* FlowLayout.swift in Sources */,
 				FA011DF11BE99AD6001E953C /* ViewController.swift in Sources */,
 				FA011DEF1BE99AD6001E953C /* AppDelegate.swift in Sources */,
 			);
@@ -494,6 +498,7 @@
 				FA011E151BE99AD6001E953C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA011E161BE99AD6001E953C /* Build configuration list for PBXNativeTarget "CollectionViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +507,7 @@
 				FA011E181BE99AD6001E953C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA011E191BE99AD6001E953C /* Build configuration list for PBXNativeTarget "CollectionViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +516,7 @@
 				FA011E1B1BE99AD6001E953C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
