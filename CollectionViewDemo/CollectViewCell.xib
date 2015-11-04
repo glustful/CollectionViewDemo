@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qf7-iK-9P3" customClass="CollectViewCell" customModule="CollectionViewDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="223"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="金融理财.png" translatesAutoresizingMaskIntoConstraints="NO" id="HNz-hv-cwh">
+                    <rect key="frame" x="10" y="10" width="210" height="172"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标签数据" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Le9-1u-EF6">
+                    <rect key="frame" x="0.0" y="192" width="230" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Le9-1u-EF6" firstAttribute="top" secondItem="HNz-hv-cwh" secondAttribute="bottom" constant="10" id="1ch-gD-BYn"/>
+                <constraint firstItem="HNz-hv-cwh" firstAttribute="leading" secondItem="qf7-iK-9P3" secondAttribute="leading" constant="10" id="ccm-Iu-y1l"/>
+                <constraint firstItem="HNz-hv-cwh" firstAttribute="top" secondItem="qf7-iK-9P3" secondAttribute="top" constant="10" id="ddO-VB-ZUw"/>
+                <constraint firstAttribute="trailing" secondItem="HNz-hv-cwh" secondAttribute="trailing" constant="10" id="dmo-0g-8p5"/>
+                <constraint firstAttribute="trailing" secondItem="Le9-1u-EF6" secondAttribute="trailing" id="gc5-ZF-kES"/>
+                <constraint firstAttribute="bottom" secondItem="Le9-1u-EF6" secondAttribute="bottom" constant="10" id="gqh-QY-z1K"/>
+                <constraint firstItem="Le9-1u-EF6" firstAttribute="leading" secondItem="qf7-iK-9P3" secondAttribute="leading" id="xPk-q8-NuO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="icon" destination="HNz-hv-cwh" id="PAK-up-ZMV"/>
+                <outlet property="label" destination="Le9-1u-EF6" id="QZO-Ur-LzB"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="-62.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="金融理财.png" width="93" height="93"/>
+    </resources>
+</document>
